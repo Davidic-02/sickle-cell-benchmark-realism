@@ -164,7 +164,7 @@ Accuracy reported on the curated cells of a widely used sickle cell morphology b
 
 ## DATA AND CODE AVAILABILITY
 
-The erythrocytesIDB dataset is publicly available from its repository under a Creative Commons Attribution-NonCommercial-NoDerivatives licence, which does not permit redistribution of derived cell images; the extracted crops are therefore not released. All extraction, analysis and figure code is available at [repository URL]. Running it against the downloaded archive reproduces every number, table and figure reported here, including the negative results. The archive checksum used in this study is recorded in the repository so that dataset versions can be matched exactly.
+The erythrocytesIDB dataset is publicly available from its repository under a Creative Commons Attribution-NonCommercial-NoDerivatives licence, which does not permit redistribution of derived cell images; the extracted crops are therefore not released. All extraction, analysis and figure code is available at https://github.com/Davidic-02/sickle-cell-benchmark-realism. Running it against the downloaded archive reproduces every number, table and figure reported here, including the negative results. The archive checksum used in this study is recorded in the repository so that dataset versions can be matched exactly.
 
 ## ACKNOWLEDGEMENT
 
