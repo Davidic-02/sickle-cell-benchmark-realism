@@ -11,3 +11,6 @@ __pycache__/
 # Local scratch
 *.partial
 paper/.figsizes.json
+
+# macOS
+.DS_Store
