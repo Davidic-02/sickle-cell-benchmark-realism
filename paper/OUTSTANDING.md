@@ -3,8 +3,13 @@
 Submission target: Scientific Journal of Computer Science (SJCS).
 File to submit: `paper/manuscript_SJCS.docx` (copy on Desktop as `SJCS_SickleCell_Manuscript.docx`).
 
-## Before submitting
-- **[repository URL]** placeholder in DATA AND CODE AVAILABILITY — create a public repo (code only; the dataset licence forbids redistributing derived crops) and paste the link.
+## Status
+- **SUBMITTED to Scientific Journal of Computer Science, 17 September 2026** (submission ID 594).
+- Repository live: https://github.com/Davidic-02/sickle-cell-benchmark-realism
+
+## Still outstanding
+- **Plagiarism report** not obtained before submission (FUTA library / Turnitin). If the editor requests one, local self-similarity was 0.20% vs the author's asthma paper and 0.00% vs the brain-tumour paper, the remainder being the affiliation block.
+- **Page layout never visually verified** — no LibreOffice on the machine; page breaks around the 4 tables and 4 figures unchecked.
 - **Plagiarism report**: journal caps total similarity at 25%, each source at 4%. Not run — needs Turnitin/iThenticate (FUTA library). Local check vs the author's own asthma and brain-tumour papers: 0.20% and 0.00%, the remainder being the affiliation block only.
 - **Page layout not visually verified** — LibreOffice is not installed on this machine, so page breaks around the 4 tables and 4 figures were never inspected. Open in Word and scroll before uploading.
 - **Author block** currently matches the asthma paper (name, department, corresponding email). Change if a different form is wanted.
