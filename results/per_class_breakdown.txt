@@ -1,0 +1,18 @@
+RBF-SVM per-class recall (108/class, 5 draws x 5 folds)
+
+class       curated  natural     gap
+circular      96.1%    84.7%  +11.4
+elongated     97.8%    65.0%  +32.8
+other         84.1%    57.2%  +26.9
+
+curated confusion (row=true, % of row):
+             circu   elong   other
+circular     96.1%    0.2%    3.7%
+elongated     0.0%   97.8%    2.2%
+other         4.8%   11.1%   84.1%
+
+natural confusion (row=true, % of row):
+             circu   elong   other
+circular     84.6%    4.8%   10.6%
+elongated    10.2%   65.0%   24.8%
+other        12.8%   30.0%   57.2%

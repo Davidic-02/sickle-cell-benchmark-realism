@@ -1,0 +1,4 @@
+CNN ResNet18 grayscale, 100/class, 10 draws x 5 folds, 12 epochs
+curated  bal-acc  93.17% (fold range 83.3-98.3)  recall c/e/o 95.7/95.3/88.5
+natural  bal-acc  78.97% (fold range 65.0-93.3)  recall c/e/o 81.2/83.6/72.1
+GAP +14.20 pts   (HOG+RBF-SVM reference: +10.47)

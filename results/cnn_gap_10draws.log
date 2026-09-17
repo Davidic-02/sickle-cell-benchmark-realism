@@ -1,0 +1,25 @@
+device mps
+  curated draw 0: running bal-acc 94.00%
+  curated draw 1: running bal-acc 93.83%
+  curated draw 2: running bal-acc 93.78%
+  curated draw 3: running bal-acc 93.00%
+  curated draw 4: running bal-acc 93.07%
+  curated draw 5: running bal-acc 93.28%
+  curated draw 6: running bal-acc 93.38%
+  curated draw 7: running bal-acc 93.04%
+  curated draw 8: running bal-acc 93.00%
+  curated draw 9: running bal-acc 93.17%
+  natural draw 0: running bal-acc 82.67%
+  natural draw 1: running bal-acc 82.00%
+  natural draw 2: running bal-acc 81.22%
+  natural draw 3: running bal-acc 80.33%
+  natural draw 4: running bal-acc 80.00%
+  natural draw 5: running bal-acc 79.67%
+  natural draw 6: running bal-acc 78.95%
+  natural draw 7: running bal-acc 78.62%
+  natural draw 8: running bal-acc 79.00%
+  natural draw 9: running bal-acc 78.97%
+CNN ResNet18 grayscale, 100/class, 10 draws x 5 folds, 12 epochs
+curated  bal-acc  93.17% (fold range 83.3-98.3)  recall c/e/o 95.7/95.3/88.5
+natural  bal-acc  78.97% (fold range 65.0-93.3)  recall c/e/o 81.2/83.6/72.1
+GAP +14.20 pts   (HOG+RBF-SVM reference: +10.47)

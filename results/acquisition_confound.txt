@@ -1,0 +1,16 @@
+ACQUISITION STATISTICS (64x64 grayscale; hue/sat on full crop)
+            hue(deg)     sat  contrast  sharpness
+curated        173.0   0.129    0.0844    0.00037
+natural        286.1   0.210    0.0411    0.00027
+
+degradation: gaussian sigma=0.5, contrast rescaled to 0.0411
+  degraded curated sharpness 0.00005 (natural 0.00027), contrast 0.0411
+
+RBF-SVM balanced accuracy, 108/class, 5 draws x 5 folds
+  curated (original)           92.72%
+  curated DEGRADED to natural  92.41%
+  natural                      70.39%
+
+  gap original->natural        +22.34 pts
+  explained by image quality    +0.32 pts (1% of gap)
+  remaining after degradation  +22.02 pts

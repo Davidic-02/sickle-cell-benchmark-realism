@@ -1,0 +1,10 @@
+cell bbox / frame area:  curated median 0.352   natural(tight) median 0.853
+reframed natural cells: 1876  {np.str_('circular'): np.int64(1330), np.str_('elongated'): np.int64(438), np.str_('other'): np.int64(108)}
+
+RBF-SVM balanced accuracy, 108/class, 5 draws x 5 folds
+  curated                   92.66%
+  natural, tight crops      68.96%
+  natural, curated framing  77.73%
+
+  gap tight    +23.70 pts
+  gap reframed +14.93 pts   -> framing explains 37% of gap

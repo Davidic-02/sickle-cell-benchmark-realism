@@ -1,0 +1,13 @@
+# Dataset and anything derived from it.
+# erythrocytesIDB is CC BY-NC-ND 4.0: derived cell crops must NOT be redistributed.
+data/
+
+# Environments
+.venv/
+.venv311/
+__pycache__/
+*.pyc
+
+# Local scratch
+*.partial
+paper/.figsizes.json

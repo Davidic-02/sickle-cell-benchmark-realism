@@ -1,0 +1,9 @@
+cells 1764 {'circular': 1240, 'elongated': 424, 'other': 100} -> 100/class
+median bbox aspect ratio: circular 1.07  elongated 1.62  other 1.22
+
+A tight, non-square (distorted)     72.38 [95%  68.3,  76.0]   recall c/e/o 85.2/68.5/63.4
+B tight, letterboxed square         79.45 [95%  75.8,  82.0]   recall c/e/o 85.0/85.2/68.2
+C square frame, fill 0.35           79.62 [95%  75.3,  82.9]   recall c/e/o 84.0/83.7/71.1
+
+undistorting (B - A):            +7.07 [95%  +3.1,  +9.7]
+adding context after (C - B):    +0.17 [95%  -4.7,  +3.7]

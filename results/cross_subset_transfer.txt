@@ -1,0 +1,4 @@
+train curated -> test natural: bal-acc  46.98%   recall circ/elong/other 23.1/33.3/84.4
+train natural -> test curated: bal-acc  35.74%   recall circ/elong/other 2.6/12.8/91.9
+
+(within-subset reference: curated ~92.8%, natural ~69.3%; chance 33.3%)

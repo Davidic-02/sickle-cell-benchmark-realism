@@ -1,0 +1,6 @@
+size-matched at 100/class for every arm
+
+  curated                        91.33%
+  natural, all reframed          78.87%   gap +12.47   (n=1876)
+  natural, no border-touching    79.47%   gap +11.87   (n=1870)
+  natural, no border, no clipped frame 80.87%   gap +10.47   (n=1767)

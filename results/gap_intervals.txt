@@ -1,0 +1,10 @@
+native crop side (px): curated median 80  [80-80]   natural median 303  [244-377]
+resolution-matching factor for natural crops: x0.264
+
+RBF-SVM balanced accuracy, 100/class, 20 paired draws x 5-fold CV
+  curated                                91.28  [95%  89.82,  93.19]
+  natural (reframed, clean)              80.12  [95%  76.00,  84.35]
+  natural (reframed, clean, res-matched) 79.92  [95%  75.98,  84.35]
+
+  GAP curated - natural                  11.17  [95%   6.44,  15.51]
+  GAP curated - natural res-matched      11.37  [95%   6.16,  15.51]
