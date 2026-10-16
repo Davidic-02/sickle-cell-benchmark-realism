@@ -63,7 +63,7 @@ python3.11 -m venv .venv311
 |---|---|
 | `src/` | Extraction, analysis and figure scripts |
 | `results/` | Raw outputs every number and figure is drawn from |
-| `paper/` | Manuscript (Markdown and Word), figures, submission notes |
+| `paper/` | Figures (PNG and PDF) and working notes; the manuscript text is not hosted here |
 | `RESULTS.md` | All 16 experiments in the order they were run, including the negative ones |
 
 ## Licence
