@@ -18,7 +18,7 @@ The difference survives controls for class balance, sample size, extraction qual
 Two further results:
 
 - **Crop geometry matters on its own.** Resizing a non-square cell crop to a square input distorts cell shape and costs **7.1 points** (3.1–9.7) on identical cells, cutting elongated-cell recall from 85.2% to 68.5%.
-- **Two negative results.** Grouping cross-validation folds by source smear changes nothing (−0.4 to −0.5 points), and surrounding smear context does not help — wide context costs up to 10.0 points.
+- **Three negative results.** Grouping cross-validation folds by source smear changes nothing (−0.4 to −0.5 points), surrounding smear context does not help (wide context costs up to 10.0 points), and referring the model's least confident cells to a human reader does not recover curated-level accuracy (balanced accuracy stays at about 65–66% at every coverage tested, against 93.3% for curated cells).
 
 ## Reproducing
 
@@ -45,6 +45,7 @@ python3 -m venv .venv
 ./.venv/bin/python src/gap_intervals.py        # headline gap with intervals
 ./.venv/bin/python src/aspect_test.py          # crop geometry
 ./.venv/bin/python src/context_pilot.py        # surrounding context
+./.venv/bin/python src/selective_coverage.py    # confidence-based referral
 ./.venv/bin/python src/make_figures.py         # figures, plotted from results/
 ```
 
@@ -63,7 +64,7 @@ python3.11 -m venv .venv311
 | `src/` | Extraction, analysis and figure scripts |
 | `results/` | Raw outputs every number and figure is drawn from |
 | `paper/` | Manuscript (Markdown and Word), figures, submission notes |
-| `RESULTS.md` | All 15 experiments in the order they were run, including the negative ones |
+| `RESULTS.md` | All 16 experiments in the order they were run, including the negative ones |
 
 ## Licence
 

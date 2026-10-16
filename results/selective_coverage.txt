@@ -1,0 +1,14 @@
+natural smear cells n=1876 {'circular': 1330, 'elongated': 438, 'other': 108}  |  curated n=625
+confidence = SVM margin (best minus runner-up); smear-grouped CV for natural arm; 5 seeds
+
+coverage | NATURAL acc  bal-acc | retained % circ/elong/other | CURATED acc  bal-acc
+    100% |      90.84%   65.23% | 100.0 / 100.0 / 100.0      |      93.18%   93.25%
+     90% |      94.60%   65.09% |  93.7 /  87.7 /  54.1      |      96.01%   96.03%
+     80% |      96.46%   65.48% |  84.8 /  77.3 /  31.5      |      96.56%   96.53%
+     70% |      97.49%   65.78% |  75.4 /  66.1 /  18.7      |      96.53%   96.29%
+     60% |      98.28%   65.96% |  65.8 /  54.8 /  10.0      |      96.80%   96.18%
+     50% |      98.59%   66.12% |  56.3 /  41.5 /   7.2      |      97.18%   95.94%
+     40% |      98.88%   66.13% |  45.9 /  30.8 /   3.9      |      97.52%   95.22%
+
+curated full-coverage balanced accuracy = 93.25%
+natural coverage at which balanced accuracy reaches that: never reached in the range tested

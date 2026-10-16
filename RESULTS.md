@@ -33,6 +33,7 @@ Residual after undistorted square framing: **~11–15 pts, roughly uniform acros
 | 13 | **CNN (ResNet18, grayscale, reframed, clean), 10 draws x 5 folds** | curated 93.2% vs natural 79.0%; **gap +14.2** (3-draw pilot: +12.6) | **Gap survives learned features** |
 | 14 | **Context pilot**: same 1,305 cells at 6 framing levels, each with a background-masked twin | Context effect (unmasked − masked): +0.2 / +1.0 / +1.9 at fill 0.85–0.35 (CIs include 0); −2.6 / **−5.7** / **−10.0** at fill 0.20–0.07 | **Context does not help; wide context harms** |
 | 15 | **Aspect distortion**: same 1,764 cells, tight non-square→64x64 vs tight letterboxed square vs square frame | 72.4% → 79.5% → 79.6%; undistorting **+7.1 [+3.1, +9.7]**, then context +0.2 [−4.7, +3.7]; elongated recall 68.5% → 85.2% | **#7's effect is aspect-ratio distortion** |
+| 16 | **Confidence-based referral** (does curation act like a selective classifier?). Natural class proportions, smear-grouped folds, 5 seeds | Plain accuracy 90.8% → 98.9% as coverage falls to 40%, but balanced accuracy 65.2% → 66.1%, never near curated 93.3%. Gain is composition: 93% of 'other' cells referred at 50% coverage | **Hypothesis not supported.** Not comparable with the 80.1% balanced-subsample figure |
 
 ## Claims this supports
 - Resizing non-square cell crops to a square input distorts shape and costs ~7 points of balanced accuracy (elongated recall −17 pts). Amount of surrounding context gives no benefit; wide context harms.
